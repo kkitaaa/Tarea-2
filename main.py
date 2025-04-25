@@ -91,3 +91,11 @@ def rehacer():
 # para correr el servidor
 # uvicorn main:app --reload
 # http://127.0.0.1:8000/docs
+'''no configuré la api para que saliera con el formato ya puesto en FastApi. este es el formato para que pruebe
+{
+  "destino": "Medellín",
+  "id": 1,
+  "codigo": "AB123",
+  "emergencia": false
+  
+}'''
